@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Adam Herczeg" => "sherc91@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/sherc91/PodTest.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/sherc91/PodTest.git", :tag => "0.1.1" }
 
   s.source_files  = "Serveture Framework", "Serveture Framework/**/*.{h,m,swift}"
   # s.resource  = "icon.png"
