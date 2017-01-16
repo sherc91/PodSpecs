@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Serveture/app-framework-ios.git", :tag => s.version }
 
-  s.source_files  = "Serveture Framework", "Serveture Framework/**/*.{h,m,swift}"
+  s.source_files  = "Serveture Framework", "Serveture Framework/**/*.{h,m,swift,xib}"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
   
