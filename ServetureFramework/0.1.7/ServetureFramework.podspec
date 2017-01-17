@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Serveture Framework", "Serveture Framework/**/*.{h,m,swift}"
   # s.resource  = "icon.png"
-  s.resources = "Serveture Framework/Resources/*.xcassets"
-  s.resource_bundles = { 'Xibs' => 'Serveture Framework/Resources/*.xib' }
+  # s.resources = "Serveture Framework/Resources/*.{xib,xcassets}"
+  s.resource_bundles = { 'Resources' => ['Serveture Framework/Resources/*.{xib,xcassets}'] }
   
   s.frameworks = 'UIKit', 'MapKit'
   
